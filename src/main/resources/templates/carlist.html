@@ -1,0 +1,13 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<h1>My Car List</h1>
+
+<ul>
+    <li th:each="car : ${carList}"
+        th:text="${car}">
+    </li>
+</ul>
+
+
+</body>
+</html>
